@@ -1,6 +1,5 @@
-<link rel="stylesheet" href="styles.css">
 .container {
-    width: 80;
+    width: 80%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -29,6 +28,6 @@ main {
 footer {
     background-color: #333;
     color: white;
-    text-align: centeer;
+    text-align: center;
     padding: 10px 0;
 }
