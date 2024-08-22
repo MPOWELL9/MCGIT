@@ -4,11 +4,8 @@ function add(a,b){
 function subtract(a,b) {
     return a -b;
 }
-function subtract(a,b) {
-    return a-b;
-}
 function multiply (a,b) {
-    return a* b;
+     return a* b;
 
 }
 function divide(a,b){
@@ -35,8 +32,8 @@ try {
     console.log('Addition:', calculate('+', 5, 3));
     console.log('Subtraction:', calculate('-',10,4));
     console.log('Multiplication:', calculate('*',7,2))
-    console.log('Division:', calculate('/',5,0))
+    console.log('Division:', calculate('/',12,3))
     console.log('Division by zero:', calculate('/',5,0))
-}catch (error) {
+} catch (error) {
     console.log('Error:', error.message);
 }
