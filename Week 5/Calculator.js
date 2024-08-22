@@ -17,7 +17,7 @@ function divide(a,b){
 function calculate(operator, num1,num2){
     switch (operator) {
         case'+':
-            return add(num1. num2);
+            return add(num1, num2);
         case'-':
             return subtract (num1, num2);
         case'*':
